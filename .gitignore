@@ -1,43 +1,78 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+-# Windows image file caches
+-Thumbs.db
+-ehthumbs.db
+-
+-# Folder config file
+-Desktop.ini
+-
+-# Recycle Bin used on file shares
+-$RECYCLE.BIN/
+-
+-# Windows Installer files
+-*.cab
+-*.msi
+-*.msm
+-*.msp
+-
+-# Windows shortcuts
+-*.lnk
+-
+-# =========================
+-# Operating System Files
+-# =========================
+-
+-# OSX
+-# =========================
+-
+-.DS_Store
+-.AppleDouble
+-.LSOverride
+-
+-# Thumbnails
+-._*
+-
+-# Files that might appear on external disk
+-.Spotlight-V100
+-.Trashes
+-
+-# Directories potentially created on remote AFP share
+-.AppleDB
+-.AppleDesktop
+-Network Trash Folder
+-Temporary Items
+-.apdisk
 
-# Folder config file
-Desktop.ini
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Windows shortcuts
-*.lnk
+# Executables
+*.exe
+*.out
+*.app
 
-# =========================
-# Operating System Files
-# =========================
+#CodeBlocks Files
 
-# OSX
-# =========================
+bin/
+obj/
+*.depend
+*.layout
+*.cbp
 
-.DS_Store
-.AppleDouble
-.LSOverride
+#Ubuntu Files
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Testing Files
+main.cpp
